@@ -1,0 +1,16 @@
+Instructions to run the program.
+
+There are two classes CellularAutomata.java and RandomCollection.java. RandomCollection.java is a helper class and CellularAutomata.java is the main class. 
+
+Make sure java is installed in your system. 
+
+1. Unzip the assignment folder.
+2. Navigate into the assignment folder using command prompt. 
+3. Type in command prompt "javac CellularAutomata.java"
+4. The program would be compiled.
+5. Type in command prompt "java CellularAutomata"
+6. Program will execute.
+7. Enter Radius, Rule and Starting Condition as asked and see the result.
+
+
+if you need any help feel free to contact via email.

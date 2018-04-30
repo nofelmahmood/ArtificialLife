@@ -1,4 +1,4 @@
-# ArtificialLife-Assignments
+# Course "Artificial Life" Programming Assignments
 Programming assignments done in Masters In Computer Science course "Artificial Life", using Java or C++.
 
 ## Programming Assignment: A

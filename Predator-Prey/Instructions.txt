@@ -1,0 +1,16 @@
+Instructions to run the program.
+
+There is a single python code file "Predator-Prey.py". 
+
+Make sure python is installed in your system. I have used python version 2.7.
+
+1. Unzip the assignment folder.
+2. Navigate into the assignment folder using command prompt. 
+3. Type in command prompt "pip install numpy"
+4. Type in command prompt "pip install matplotlib"
+3. Type in command prompt "python Predator-Prey.py"
+4. The program would run and show two plots showing stable osscilation. One without extended terms and one with extended terms.
+5. The program would print mean observations and final observations for both the systems in the console.
+9. There are also screenshots of program run in console and of plotted graphs.
+
+if you need any help feel free to contact via email.

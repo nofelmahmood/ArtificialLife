@@ -54,3 +54,34 @@ Make sure your program can be compiled and started from a console, or a terminal
 IDE is fine for developing, but make sure the final program can be operated without the IDE.
 Send an E-Mail to your tutor containing the documented source code and a description
 how to compile and run your program from the console (no IDE).
+
+## Programming Assignment: C 
+
+Write a C, C++, or Java Programm, that implements a **Predator-Prey**, Activator-Inhibitor
+System with an iterated function. Please notice, that it is reasonable to work with real
+values (type double).
+
+Find a set of starting conditions for x(0) and y(0) and a set of parameters a, b, c, d, e, f that
+will yield an almost stable oscillation. Determine the mean population size ¯x, y¯ for prey and
+predator when the system has reached an almost stable oscillation.
+
+Increase the parameter a a bit. How is the influence of a on the mean values ¯x, y¯?
+
+**x(i + 1) = x(i) + a ∗ x(i) + b ∗ y(i) + e ∗ x(i) ∗ x(i)**
+
+**y(i + 1) = y(i) + c ∗ x(i) + d ∗ y(i) + f ∗ y(i) ∗ y(i)**
+
+Draw the temporal development x(i), and x(i) of a stable oscillation with respect to the
+iteration number i, and draw a so-called phase plot, where y(i) is plotted against x(i) in a
+two dimensional diagram.
+
+Use the program Gnuplot to draw this graph, and hand in the respective Gnuplot commands.
+Extend the equations by two further terms, redo the steps above for the altered system and
+describe some of the major differences.
+
+**x(i + 1) = x(i) + a ∗ x(i) + b ∗ y(i) + e ∗ x(i) ∗ x(i) + g ∗ x(i) ∗ y(i)**
+
+**y(i + 1) = y(i) + c ∗ x(i) + d ∗ y(i) + f ∗ y(i) ∗ y(i) + h ∗ x(i) ∗ y(i)**
+
+Make sure your program is running correctly, and that you have sensible and resonable comments
+in your sourcecode
